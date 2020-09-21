@@ -57,12 +57,9 @@ const KoreaNewsUserList = () => {
         })
       }
     } catch (error) {
-      message.warning("페이지를 로딩하는데 실패했어요.")
+      message.warning("페이지 로딩을 실패했어요.")
     }
 
-    // 이전 다음 페이지를 위한 api호출
-    // axios로 서버 통신
-    // success시 nomalList 업데이트
   }
   const onNobtn = () => {
     setIsShow(!isShow)
